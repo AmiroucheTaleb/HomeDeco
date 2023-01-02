@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homedeco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--navbare mobile-->  
+  <div class="hamberger-container">
+ 
+      <input type="checkbox" id="hamberger">
+        <ul>
+          <li><a href="#hero" >Home</a></li>
+          <li><a href="gallery.html" >Gallery</a></li>
+          <li><a href="#services" >Services</a></li>
+          <li><a href="#about" >About</a></li>
+          <li><a href="#contact" >Contact</a></li>
+        </ul>
+      <label for="hamberger" class="hamberger-content">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      </label>
+   <!--navbare desktop-->
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+        <img src="./src/homedecoWhite.png" alt="" style="max-width: 13em">
+    </div>
+    <div class="nav-link">
+        <ul>
+            <li class="active"><a href="#hero" >Home</a></li>
+            <li><a href="gallery.html" >Gallery</a></li>
+            <li><a href="#services" >Services</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#contact" >Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!--home-->
+<section class="hero" id="hero">
+    <header class="hero-header">
+      <h1 class="hero-title">An innovative interior design agency</h1>
+    </header>
+    <footer class="hero-footer">
+      <a class="button button-primary" href="#about">ABOUT US</a>
+      <a class="button" href="#">gallery  </a>
+    </footer>
+  </section>
+<!--about-->
+    <div id="about">
+    <h2 class="section-heading">About us</h2>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </div>
+  <!-- test slider-->
+       <div class="boxe">
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slides">
+                <div id="slides__1" class="slide">
+                  <span class="slide__text"><img src="./src/sketch.png" class="diapo"></span>
+                  <a class="slide__prev" href="#slides__4" title="Next"></a>
+                  <a class="slide__next" href="#slides__2" title="Next"></a>
+                </div>
+                <div id="slides__2" class="slide">
+                  <span class="slide__text"><img src="./src/pexels-pixabay-276267 (1).jpg" class="diapo"></span>
+                  <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                  <a class="slide__next" href="#slides__3" title="Next"></a>
+                </div>
+                
+                 <div id="slides__3" class="slide">
+                  <span class="slide__text"><img src="./src/pexels-terry-magallanes-2635038.jpg" class="diapo"></span>
+                  <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                  <a class="slide__next" href="#slides__4" title="Next"></a>
+                </div>
+                <div id="slides__4" class="slide">
+                  <span class="slide__text"><img src="./src/pexels-vecislavas-popa-1571453.jpg" class="diapo"></span>
+                  <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                  <a class="slide__next" href="#slides__1" title="Prev"></a>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+    <!--services section-->
+        <section id="services">
+        <div class="row">
+          <h2 class="section-heading">Our Services</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-hammer"></i>
+              </div>
+              <h3>construction</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-brush"></i>
+              </div>
+              <h3>painting</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-wrench"></i>
+              </div>
+              <h3>renovations</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-truck-pickup"></i>
+              </div>
+              <h3>furniture transport</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-broom"></i>
+              </div>
+              <h3>3D sketch modeling</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-plug"></i>
+              </div>
+              <h3>lights and domotique</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                consequatur necessitatibus eaque.
+              </p>
+            </div>
+          </div>
+        </div>
+      <!-- contact section -->
+     <section id="contact">
+      <h2 class="section-heading">Contact US</h2>
+      <div class="contact-container">
+        <div class="contact-content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Surkhet, NP12</div>
+              <div class="text-two">Birendranagar 06</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+0098 9893 5647</div>
+              <div class="text-two">+0096 3434 5678</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">support@homedeco.com</div>
+              <div class="text-two">info@homedeco.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              <input type="text" placeholder="Enter your message">
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    </section>  
+      </section>
+      <!--team section-->
+      <div class="container-block container" id="team">
+        <h3 class="text-blk team-head-text">Our Team</h3>
+        <div class="responsive-container-block teamcard-container">
+          <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+            <div class="team-card">
+              <div class="team-img-wrapper">
+                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg" class="team-img" />
+              </div>
+              <div class="team-card-content">
+                <p class="text-blk name">Abdelfatteh SAYHI
+                </p>
+                <p class="text-blk position">Architect</p>
+              </div>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+            <div class="team-card">
+              <div class="team-img-wrapper">
+                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft13.svg" class="team-img" />
+              </div>
+              <div class="team-card-content">
+                <p class="text-blk name">Rabah AOUAOUCHE</p>
+                <p class="text-blk position">DESIGNER</p>
+              </div>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+            <div class="team-card">
+              <div class="team-img-wrapper">
+                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft14.svg" class="team-img" />
+              </div>
+              <div class="team-card-content">
+                <p class="text-blk name">Akram CHOUGARA</p>
+                <p class="text-blk position">MANAGER</p>
+              </div>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+            <div class="team-card">
+              <div class="team-img-wrapper">
+                <img src="./src/riad.png" class="team-img" />
+              </div>
+              <div class="team-card-content">
+                <p class="text-blk name">Riad IDIR</p>
+                <p class="text-blk position">3D maker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--footer-->
+      <footer class="simple-footer">
+      <div class="footer-left">
+        <img src="./src/homedecoWhite.png" alt="" style="max-width: 15em;">
+      </div>
+      <div>
+        <h2>sections</h2>
+        <ul>
+            <li><a href="#hero" >Home</a></li>
+            <li><a href="#" >Gallery</a></li>
+            <li><a href="#services" >Services</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#contact" >Contact</a></li>
+          </ul>
+      </div>
+      <div>
+        <h2>services</h2>
+        <ul>
+          <li>construction</li>
+          <li>painting</li>
+          <li>renovations</li>
+          <li>furniture transport</li>
+          <li>3D sketch modeling</li>
+          <li>lights and domotique</li>
+        </ul>
+      </div>
+    </footer>
+</body>
+
+</html>
